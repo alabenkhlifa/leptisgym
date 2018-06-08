@@ -36,7 +36,7 @@ class Abonnement
     private $dateFin;
 
     /**
-     * @ORM\ManyToOne(targetEntity="GymBundle\Entity\Client", inversedBy="abonnements")
+     * @ORM\ManyToOne(targetEntity="GymBundle\Entity\Client", inversedBy="abonnements",cascade={"persist"})
      * @ORM\JoinColumn(name="client_id", referencedColumnName="id")
      */
     private $client;
@@ -44,7 +44,7 @@ class Abonnement
     /**
      * @var string
      *
-     * @ORM\Column(name="Type", type="string", length=255)
+     * @ORM\Column(name="type", type="string", length=255)
      */
     private $type;
 
