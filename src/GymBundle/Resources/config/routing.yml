@@ -1,0 +1,3 @@
+gym_homepage:
+    path:     /
+    defaults: { _controller: GymBundle:Default:index }
