@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/favicon.png">
-    <title>Leptis Gym</title>
+    <title>Leptis Gym - {% block blocktitle %}DashBoard{% endblock %}</title>
     <!-- Bootstrap Core CSS -->
     <link href="{{ asset('Assets/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Menu CSS -->
@@ -16,6 +16,8 @@
     <link href="{{ asset('Assets/css/style.css') }}" rel="stylesheet">
     <!-- color CSS -->
     <link href="{{ asset('Assets/css/colors/default.css') }}" id="theme" rel="stylesheet">
+    {% block stylesheets %}
+    {% endblock %}
 </head>
 
 <body class="fix-header">
@@ -59,7 +61,7 @@
                 </li>
                 <li> <a href="index.html" class="waves-effect"><span class="hide-menu"><i data-icon="" class="linea-icon linea-basic fa-fw"></i> Abonnement</span> <span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
-                        <li> <a href="index.html"><i class=" fa-fw">+</i><span class="hide-menu">Ajouter Abonnement</span></a> </li>
+                        <li> <a href="{{ path('gym_abonnement_create') }}"><i class=" fa-fw">+</i><span class="hide-menu">Ajouter Abonnement</span></a> </li>
                         <li> <a href="index2.html"><i class=" fa-fw">-</i><span class="hide-menu">Liste Abonnements</span></a> </li>
                     </ul>
                 </li>
@@ -73,12 +75,15 @@
                     <h4 class="page-title">{% block pagetitle %}Starter Page{% endblock %}</h4>
                 </div>
             </div>
+            {% block body %}
             <div class="row">
                 <div class="col-md-12">
                     <div class="white-box">
-                        <h3 class="box-title">{% block blocktitle %}Blank Starter page{% endblock %}</h3> </div>
+                        <h3 class="box-title">Layout</h3>
+                    </div>
                 </div>
             </div>
+            {% endblock %}
         </div>
         <footer class="footer text-center"> 2018 &copy; LeptisGym </footer>
     </div>
@@ -90,5 +95,7 @@
 <script src="{{ asset('Assets/js/waves.js') }}"></script>
 <script src="{{ asset('Assets/js/custom.min.js') }}"></script>
 <script src="{{ asset('Assets/bower_components/styleswitcher/jQuery.style.switcher.js') }}"></script>
+{% block scripts %}
+{% endblock %}
 </body>
 </html>

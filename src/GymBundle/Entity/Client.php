@@ -41,6 +41,31 @@ class Client
     private $abonnements;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="sexe", type="string", length=255)
+     */
+    private $sexe;
+
+    /**
+     * @return string
+     */
+    public function getSexe()
+    {
+        return $this->sexe;
+    }
+
+    /**
+     * @param string $sexe
+     */
+    public function setSexe($sexe)
+    {
+        $this->sexe = $sexe;
+    }
+
+
+
+    /**
      * Get id
      *
      * @return int
