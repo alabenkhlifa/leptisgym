@@ -14,6 +14,13 @@ class DefaultController extends Controller
         return $this->render('@Gym/Layout/Layout.html.twig');
     }
 
+    public function listabonnementAction()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $clients = $em->getRepository('GymBundle:Client')->findAll();
+        return $this->render('@Gym/Abonnement/list.html.twig',array('clients'=>$clients));
+    }
+
     public function createabonnementAction(Request $request)
     {
         if ($request->isMethod("POST")){
@@ -42,5 +49,12 @@ class DefaultController extends Controller
 
         }
         return $this->render('@Gym/Abonnement/create.html.twig',array('today'=>new \DateTime('now')));
+    }
+
+    public function clientHistoryAction($id)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $client = $em->getRepository('GymBundle:Client')->findOneBy(array('id'=>$id));
+        return $this->render('@Gym/Abonnement/clientHistory.html.twig',array('abonnements'=>$client->getAbonnements(),'client'=>$client));
     }
 }

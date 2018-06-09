@@ -1,0 +1,82 @@
+{% extends '@Gym/Layout/Layout.html.twig' %}
+{% block blocktitle %}{{ client.prenom | capitalize }} {{ client.nom |capitalize }}{% endblock %}
+{% block pagetitle %}<span class="label label-{% if client.sexe | lower == 'homme' %}primary{% else %}danger{% endif %}">{{ client.prenom | capitalize }} {{ client.nom |capitalize }}</span>{% endblock %}
+{% block stylesheets %}
+    <link href="{{ asset('Assets/bower_components/horizontal-timeline/css/horizontal-timeline.css') }}" rel="stylesheet" type="text/css" />
+{% endblock %}
+{% block body %}
+<center>
+    <div class="col-sm-12">
+        <div class="white-box">
+            <section class="cd-horizontal-timeline loaded">
+                <div class="timeline">
+                    <div class="events-wrapper">
+                        <div class="events">
+                            <ol>
+                                {% for abonnement in abonnements %}
+                                <li><a href="#0" data-date="{{ abonnement.dateDebut | date('d/m/Y') }}" {% if not loop.index0 %}class = "selected"{% endif %}>{{ abonnement.dateDebut | date('d M') }}</a></li>
+                                {% endfor %}
+                            </ol> <span class="filling-line" aria-hidden="true"></span>
+                        </div>
+                        <!-- .events -->
+                    </div>
+                    <!-- .events-wrapper -->
+                    <ul class="cd-timeline-navigation">
+                        <li><a href="#0" class="prev inactive">Prev</a></li>
+                        <li><a href="#0" class="next">Next</a></li>
+                    </ul>
+                    <!-- .cd-timeline-navigation -->
+                </div>
+                <!-- .timeline -->
+                <div class="events-content">
+                    <ol>
+                        {% for abonnement in abonnements %}
+                        <li data-date="{{ abonnement.dateDebut | date('d/m/Y') }}" {% if not loop.index0 %}class = "selected"{% endif %}>
+                            <h2>Abonnement N° {{ loop.index }}<br/><small>{{ abonnement.dateDebut | date('d-M, Y') }} --> {{ abonnement.dateFin | date('d-M, Y') }}</small></h2>
+                            <br />
+                            {% if date() > abonnement.dateFin %}
+                                <div class="progress progress-lg">
+                                    <div class="progress-bar progress-bar-success progress-bar-striped" style="width: 100%;" role="progressbar">Terminé</div>
+                                </div>
+                            {% elseif date() < abonnement.dateDebut %}
+                                <div class="progress progress-lg">
+                                    <div class="progress-bar progress-bar-purple" style="width: 100%;" role="progressbar">Pas Encore !</div>
+                                </div>
+                            {% elseif abonnement.dateDebut.diff(date()).days == 0 %}
+                                <div class="progress progress-lg">
+                                    <div class="progress-bar progress-bar-custom" style="width: 100%;" role="progressbar">Premier Jour !</div>
+                                </div>
+                            {% elseif date() == abonnement.dateFin %}
+                                <div class="progress progress-lg">
+                                    <div class="progress-bar progress-bar-inverse" style="width: 100%;" role="progressbar">Dernier Jour !</div>
+                                </div>
+                            {% else %}
+                                {% set difference = abonnement.dateFin.diff(date()) %}
+                                {% set duree = abonnement.dateFin.diff(abonnement.dateDebut) %}
+                                <div class="progress progress-lg">
+                                    <div class="progress-bar progress-bar-{% if duree.days-difference.days+1 < 10 %}success{% elseif duree.days-difference.days+1<20 and duree.days-difference.days+1>=10 %}warning{% else %}danger{% endif %} active progress-bar-striped"
+                                         role="progressbar" style="width: {{ (duree.days-difference.days)/duree.days*100 }}%;"> {% if (duree.days-difference.days)/duree.days*100 > 10 %}{{ difference.days+1 }} Jours Restants{% endif %}
+                                    </div>
+                                </div>
+                                <br />
+                                {% if (duree.days-difference.days)/duree.days*100 < 10 %}<h3>{{ difference.days+1 }} Jours Restants</h3>{% endif %}
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ol>
+                </div>
+                <!-- .events-content -->
+            </section>
+        </div>
+    </div>
+</center>
+{% endblock %}
+{% block horizentalTimeline %}
+    <script type="application/javascript">
+        {% for abonnement in abonnements %}
+            console.log("{{ abonnement.dateDebut | date('d/m/Y') }}");
+            console.log("{{ loop.index0 }}");
+        {% endfor %}
+    </script>
+    <script src="{{ asset('Assets/bower_components/horizontal-timeline/js/horizontal-timeline.js') }}"></script>
+{% endblock %}

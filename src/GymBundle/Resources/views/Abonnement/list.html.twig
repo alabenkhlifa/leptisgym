@@ -1,0 +1,44 @@
+{% extends '@Gym/Layout/Layout.html.twig' %}
+{% block blocktitle %}Créer Abonnement{% endblock %}
+{% block pagetitle %}Créer Abonnement{% endblock %}
+{% block stylesheets %}
+    <link href="{{ asset('Assets/bower_components/datatables/jquery.dataTables.min.css') }}" rel="stylesheet" type="text/css" />
+    <!--<link href="{{ asset('Assets/bower_components/datatables/buttons.dataTables.min.css') }}" rel="stylesheet" type="text/css" />-->
+{% endblock %}
+{% block body %}
+<center>
+    <div class="col-sm-12">
+        <div class="white-box">
+            <div class="table-responsive">
+                <table id="myTable" class="table color-table dark-table">
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Prenom</th>
+                            <th>Sexe</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    {% for client in clients %}
+                        <tr>
+                            <td>{{ client.nom | capitalize }}</td>
+                            <td>{{ client.prenom | capitalize }}</td>
+                            <td><center><span class="label label-{% if client.sexe | lower == 'homme' %}primary{% else %}danger{% endif %}">{{ client.sexe | capitalize }}</span></center></td>
+                            <td><a data-toggle="tooltip" data-placement="left" title="" data-original-title="Historique de {{ client.prenom|capitalize }}" href="{{ path('gym_client_history', {'id': client.id}) }}" class="btn btn-success btn-block btn-outline btn-xs tooltip-{% if client.sexe | lower == 'femme' %}danger{% else %}primary{% endif %}"><i class="fa fa-list"></i> </a>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</center>
+{% endblock %}
+{% block scripts %}
+    <script src="{{ asset('Assets/bower_components/datatables/jquery.dataTables.min.js') }}"></script>
+    <script>
+        $('#myTable').DataTable();
+    </script>
+{% endblock %}

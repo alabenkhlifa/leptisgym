@@ -4,3 +4,9 @@ gym_homepage:
 gym_abonnement_create:
     path:     /abonnement/create
     defaults: { _controller: GymBundle:Default:createabonnement }
+gym_abonnement_list:
+    path:     /abonnement/liste
+    defaults: { _controller: GymBundle:Default:listabonnement }
+gym_client_history:
+    path:     /client/{id}
+    defaults: { _controller: GymBundle:Default:clientHistory }
