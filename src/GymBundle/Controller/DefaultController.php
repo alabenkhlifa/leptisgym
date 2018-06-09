@@ -9,12 +9,13 @@ use Symfony\Component\HttpFoundation\Request;
 
 class DefaultController extends Controller
 {
+    //ToDo: Statistique & DashBoard
     public function indexAction()
     {
         return $this->render('@Gym/Layout/Layout.html.twig');
     }
 
-    public function listabonnementAction()
+    public function listclientsAction()
     {
         $em = $this->getDoctrine()->getManager();
         $clients = $em->getRepository('GymBundle:Client')->findAll();
@@ -46,7 +47,7 @@ class DefaultController extends Controller
             $abonnement->setDateFin($datefin);
             $em->persist($abonnement);
             $em->flush();
-
+            return $this->redirectToRoute('gym_abonnement_list');
         }
         return $this->render('@Gym/Abonnement/create.html.twig',array('today'=>new \DateTime('now')));
     }
@@ -56,5 +57,19 @@ class DefaultController extends Controller
         $em = $this->getDoctrine()->getManager();
         $client = $em->getRepository('GymBundle:Client')->findOneBy(array('id'=>$id));
         return $this->render('@Gym/Abonnement/clientHistory.html.twig',array('abonnements'=>$client->getAbonnements(),'client'=>$client));
+    }
+
+    public function abonnementListAction()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $abonnements = $em->getRepository('GymBundle:Abonnement')->getCurrentAbonnement();
+        return $this->render('@Gym/Abonnement/list_abonnements.html.twig',array('abonnements'=>$abonnements));
+    }
+
+    public function abonnementArchiveAction()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $abonnements = $em->getRepository('GymBundle:Abonnement')->getOutDatedAbonnement();
+        return $this->render('@Gym/Abonnement/list_abonnements.html.twig',array('abonnements'=>$abonnements));
     }
 }

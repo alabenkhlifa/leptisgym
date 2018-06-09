@@ -10,4 +10,29 @@ namespace GymBundle\Repository;
  */
 class AbonnementRepository extends \Doctrine\ORM\EntityRepository
 {
+    public function getCurrentAbonnement(){
+        $entityManager = $this->getEntityManager();
+        $query = $entityManager->createQuery(
+            'SELECT a
+            FROM GymBundle:Abonnement a
+            WHERE a.dateDebut <= CURRENT_DATE() 
+            AND a.dateFin >= CURRENT_DATE() 
+            ORDER BY a.id ASC'
+        );
+
+        $abonnements = $query->getResult();
+        return $abonnements;
+    }
+    public function getOutDatedAbonnement(){
+        $entityManager = $this->getEntityManager();
+        $query = $entityManager->createQuery(
+            'SELECT a
+            FROM GymBundle:Abonnement a
+            WHERE a.dateFin < CURRENT_DATE() 
+            ORDER BY a.id ASC'
+        );
+
+        $abonnements = $query->getResult();
+        return $abonnements;
+    }
 }

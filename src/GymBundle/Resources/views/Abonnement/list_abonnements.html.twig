@@ -1,0 +1,43 @@
+{% extends '@Gym/Layout/Layout.html.twig' %}
+{% block blocktitle %}Liste Abonnements{% endblock %}
+{% block pagetitle %}Liste des Abonnements{% endblock %}
+{% block stylesheets %}
+    <link href="{{ asset('Assets/bower_components/datatables/jquery.dataTables.min.css') }}" rel="stylesheet" type="text/css" />
+    <!--<link href="{{ asset('Assets/bower_components/datatables/buttons.dataTables.min.css') }}" rel="stylesheet" type="text/css" />-->
+{% endblock %}
+{% block body %}
+<center>
+    <div class="col-sm-12">
+        <div class="white-box">
+            <div class="table-responsive">
+                <table id="myTable" class="table color-table dark-table">
+                    <thead>
+                        <tr>
+                            <th>Nom & Prenom</th>
+                            <th>Date Début</th>
+                            <th>Date Fin</th>
+                            <th>Type</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    {% for abonnement in abonnements %}
+                        <tr>
+                            <td>{{ abonnement.client.nom | capitalize }} {{ abonnement.client.prenom | capitalize }}</td>
+                            <td>{{ abonnement.dateDebut | date('d-M-Y') }}</td>
+                            <td>{{ abonnement.dateFin | date('d-M-Y') }}</td>
+                            <td><center><span class="label label-{% if abonnement.type | lower == 'musculation' %}primary{% else %}info{% endif %}">{{ abonnement.type | capitalize }}</span></center></td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</center>
+{% endblock %}
+{% block scripts %}
+    <script src="{{ asset('Assets/bower_components/datatables/jquery.dataTables.min.js') }}"></script>
+    <script>
+        $('#myTable').DataTable();
+    </script>
+{% endblock %}

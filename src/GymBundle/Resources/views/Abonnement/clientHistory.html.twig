@@ -54,7 +54,7 @@
                                 {% set difference = abonnement.dateFin.diff(date()) %}
                                 {% set duree = abonnement.dateFin.diff(abonnement.dateDebut) %}
                                 <div class="progress progress-lg">
-                                    <div class="progress-bar progress-bar-{% if duree.days-difference.days+1 < 10 %}success{% elseif duree.days-difference.days+1<20 and duree.days-difference.days+1>=10 %}warning{% else %}danger{% endif %} active progress-bar-striped"
+                                    <div class="progress-bar progress-bar-{% if difference.days+1 >20 %}success{% elseif difference.days+1<=20 and difference.days+1>10 %}warning{% else %}danger{% endif %} active progress-bar-striped"
                                          role="progressbar" style="width: {{ (duree.days-difference.days)/duree.days*100 }}%;"> {% if (duree.days-difference.days)/duree.days*100 > 10 %}{{ difference.days+1 }} Jours Restants{% endif %}
                                     </div>
                                 </div>
