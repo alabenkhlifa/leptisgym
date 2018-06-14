@@ -16,3 +16,9 @@ gym_abonnement_list:
 gym_abonnement_archive:
     path:     /abonnement/archive
     defaults: { _controller: GymBundle:Default:abonnementArchive }
+gym_check:
+    path:     /check
+    defaults: { _controller: GymBundle:Default:check }
+gym_chart:
+    path:     /chart
+    defaults: { _controller: GymBundle:Default:chart }

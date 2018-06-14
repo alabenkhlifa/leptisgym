@@ -1,6 +1,7 @@
 <?php
 
 namespace GymBundle\Repository;
+use Doctrine\DBAL\DBALException;
 
 /**
  * AbonnementRepository
@@ -34,5 +35,64 @@ class AbonnementRepository extends \Doctrine\ORM\EntityRepository
 
         $abonnements = $query->getResult();
         return $abonnements;
+    }
+
+    public function findByTypeCurrentMonth($type){
+        $em = $this->getEntityManager();
+        $sql = "SELECT COUNT(*) as number FROM abonnement WHERE MONTH(dateDebut) = MONTH(CURDATE()) AND type LIKE '".$type."'";
+        try {
+            $stmt = $em->getConnection()->prepare($sql);
+        } catch (DBALException $e) {
+        }
+        $stmt->execute();
+        return $stmt->fetchAll()[0]['number'];
+    }
+    public function getAbonnementsByMonth($month,$type){
+        $em = $this->getEntityManager();
+        $sql = "SELECT COUNT(*) as number FROM abonnement WHERE MONTH(dateDebut) = '".$month."' AND YEAR(dateDebut) = YEAR(CURDATE()) AND type LIKE '".$type."'";
+        try {
+            $stmt = $em->getConnection()->prepare($sql);
+        } catch (DBALException $e) {
+        }
+        $stmt->execute();
+        return $stmt->fetchAll()[0]['number'];
+    }
+    public function getAbonnementsByMonthAndGender($month,$genre){
+        $em = $this->getEntityManager();
+        $sql = "SELECT COUNT(*) as number FROM abonnement INNER JOIN client ON client.id = client_id
+                WHERE MONTH(dateDebut) = '".$month."' AND YEAR(dateDebut) = YEAR(CURDATE()) 
+                AND client.sexe LIKE '".$genre."'";
+        try {
+            $stmt = $em->getConnection()->prepare($sql);
+        } catch (DBALException $e) {
+        }
+        $stmt->execute();
+        return $stmt->fetchAll()[0]['number'];
+    }
+    //ToDo; DQL Revenu par mois
+    public function getRevenuByMonth($month){
+        $em = $this->getEntityManager();
+        $sql = "SELECT COUNT(*) as number FROM abonnement
+                WHERE MONTH(dateDebut) = '".$month."' AND YEAR(dateDebut) = YEAR(CURDATE()) 
+                AND type LIKE 'Musculation'";
+        try {
+            $stmt = $em->getConnection()->prepare($sql);
+        } catch (DBALException $e) {
+        }
+        $stmt->execute();
+        $RMusc = $stmt->fetchAll()[0]['number'];
+
+        $sql = "SELECT COUNT(*) as number FROM abonnement
+                WHERE MONTH(dateDebut) = '".$month."' AND YEAR(dateDebut) = YEAR(CURDATE()) 
+                AND type LIKE 'Boxe'";
+        try {
+            $stmt = $em->getConnection()->prepare($sql);
+        } catch (DBALException $e) {
+        }
+        $stmt->execute();
+        $RBoxe = $stmt->fetchAll()[0]['number'];
+
+        return ($RMusc*40+$RBoxe*30);
+
     }
 }

@@ -1,0 +1,35 @@
+{% extends '@Gym/Layout/Layout.html.twig' %}
+{% block pagetitle %}{% endblock %}
+{% block horizentalTimeline%}{% endblock %}
+
+{% block body%}
+    <div class="col-sm-12">
+        <div class="white-box">
+            <div id="container" style="min-width: 400px; height: 400px; margin: 0 auto">
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12">
+        <div class="white-box">
+            <div id="genrechart" style="min-width: 400px; height: 400px; margin: 0 auto">
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-12">
+        <div class="white-box">
+            <div id="moneylinechart" style="min-width: 400px; height: 400px; margin: 0 auto">
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+{% block scripts%}
+    <script src="//code.highcharts.com/4.1.8/highcharts.js"></script>
+    <script src="//code.highcharts.com/4.1.8/modules/exporting.js"></script>
+    <script type="text/javascript">
+        {{ chart(chart) }}
+        {{ chart(genrechart) }}
+        {{ chart(moneylinechart) }}
+    </script>
+{% endblock %}

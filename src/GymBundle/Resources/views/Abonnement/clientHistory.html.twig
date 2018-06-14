@@ -55,11 +55,11 @@
                                 {% set duree = abonnement.dateFin.diff(abonnement.dateDebut) %}
                                 <div class="progress progress-lg">
                                     <div class="progress-bar progress-bar-{% if difference.days+1 >20 %}success{% elseif difference.days+1<=20 and difference.days+1>10 %}warning{% else %}danger{% endif %} active progress-bar-striped"
-                                         role="progressbar" style="width: {{ (duree.days-difference.days)/duree.days*100 }}%;"> {% if (duree.days-difference.days)/duree.days*100 > 10 %}{{ difference.days+1 }} Jours Restants{% endif %}
+                                         role="progressbar" style="width: {{ (duree.days-difference.days)/duree.days*100 }}%;"> {% if (duree.days-difference.days)/duree.days*100 > 14 %}{{ difference.days+1 }} Jours Restants{% endif %}
                                     </div>
                                 </div>
                                 <br />
-                                {% if (duree.days-difference.days)/duree.days*100 < 10 %}<h3>{{ difference.days+1 }} Jours Restants</h3>{% endif %}
+                                {% if (duree.days-difference.days)/duree.days*100 < 14 %}<h3>{{ difference.days+1 }} Jours Restants</h3>{% endif %}
                             {% endif %}
                         </li>
                         {% endfor %}
@@ -79,4 +79,6 @@
         {% endfor %}
     </script>
     <script src="{{ asset('Assets/bower_components/horizontal-timeline/js/horizontal-timeline.js') }}"></script>
+{% endblock %}
+{% block scripts %}
 {% endblock %}

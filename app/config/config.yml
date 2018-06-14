@@ -66,3 +66,12 @@ swiftmailer:
     username: '%mailer_user%'
     password: '%mailer_password%'
     spool: { type: memory }
+vresh_twilio:
+    #(Required) Your Account SID from www.twilio.com/user/account
+    sid: 'ACf6bbc81a8c544e5a06fcc275cd39e21a'
+    #(Required) Your Auth Token from www.twilio.com/user/account
+    authToken: '48be1c82b0f20bcff11bca93f65855b4'
+    #(Optional, default: '2010-04-01') Twilio API version
+    version: '2010-04-01'
+    #(Optional, default: 1) Number of times to retry failed requests
+    retryAttempts: 3

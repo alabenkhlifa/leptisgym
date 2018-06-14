@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6235f16-d7f3-42d2-8454-158565b066ef" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/list_abonnements.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/GymBundle/Resources/views/dashboard.html.twig" />
+      <change beforePath="$PROJECT_DIR$/.idea/leptisGym.iml" afterPath="$PROJECT_DIR$/.idea/leptisGym.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change beforePath="$PROJECT_DIR$/src/GymBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/GymBundle/Controller/DefaultController.php" />
       <change beforePath="$PROJECT_DIR$/src/GymBundle/Repository/AbonnementRepository.php" afterPath="$PROJECT_DIR$/src/GymBundle/Repository/AbonnementRepository.php" />
       <change beforePath="$PROJECT_DIR$/src/GymBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/GymBundle/Resources/config/routing.yml" />
       <change beforePath="$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/clientHistory.html.twig" afterPath="$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/clientHistory.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/list_abonnements.html.twig" afterPath="$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/list_abonnements.html.twig" />
       <change beforePath="$PROJECT_DIR$/src/GymBundle/Resources/views/Layout/Layout.html.twig" afterPath="$PROJECT_DIR$/src/GymBundle/Resources/views/Layout/Layout.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,35 +29,41 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_gym@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_gym@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_gym@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_gym: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Layout.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/Layout/Layout.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="63" column="129" lean-forward="false" selection-start-line="63" selection-start-column="129" selection-end-line="63" selection-end-column="129" />
-              <folding>
-                <element signature="e#5066#5072#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/list.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="26" column="186" lean-forward="false" selection-start-line="26" selection-start-column="186" selection-end-line="26" selection-end-column="186" />
+            <state relative-caret-position="391">
+              <caret line="23" column="52" lean-forward="false" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -57,20 +72,62 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GymBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="434">
+              <caret line="248" column="57" lean-forward="false" selection-start-line="248" selection-start-column="57" selection-end-line="248" selection-end-column="57" />
               <folding>
-                <element signature="e#40#72#0#PHP" expanded="true" />
-                <element signature="e#531#549#1#PHP" expanded="true" />
-                <element signature="e#592#624#0#PHP" expanded="true" />
-                <element signature="e#864#882#1#PHP" expanded="true" />
-                <element signature="e#2229#2247#1#PHP" expanded="true" />
-                <element signature="e#2308#2349#0#PHP" expanded="true" />
-                <element signature="e#2566#2588#1#PHP" expanded="true" />
-                <element signature="e#2644#2688#0#PHP" expanded="true" />
-                <element signature="e#2877#2899#1#PHP" expanded="true" />
-                <element signature="e#2956#3000#0#PHP" expanded="true" />
+                <element signature="e#40#85#0#PHP" expanded="true" />
+                <element signature="e#493#515#1#PHP" expanded="true" />
+                <element signature="e#605#627#1#PHP" expanded="true" />
+                <element signature="e#691#721#1#PHP" expanded="true" />
+                <element signature="e#865#883#1#PHP" expanded="true" />
+                <element signature="e#926#958#0#PHP" expanded="true" />
+                <element signature="e#1198#1216#1#PHP" expanded="true" />
+                <element signature="e#2344#2378#0#PHP" expanded="true" />
+                <element signature="e#2563#2581#1#PHP" expanded="true" />
+                <element signature="e#2642#2683#0#PHP" expanded="true" />
+                <element signature="e#2900#2922#1#PHP" expanded="true" />
+                <element signature="e#2978#3022#0#PHP" expanded="true" />
+                <element signature="e#3605#3627#1#PHP" expanded="true" />
+                <element signature="e#3684#3728#0#PHP" expanded="true" />
+                <element signature="e#3909#3931#1#PHP" expanded="true" />
+                <element signature="e#4699#4998#0#PHP" expanded="false" />
+                <element signature="e#5498#5711#0#PHP" expanded="false" />
+                <element signature="e#5728#6066#0#PHP" expanded="false" />
+                <element signature="e#7663#7889#0#PHP" expanded="false" />
+                <element signature="e#7907#8241#0#PHP" expanded="false" />
+                <element signature="e#7926#8070#1#PHP" expanded="false" />
+                <element signature="e#9492#9518#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChartOption.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/ob/highcharts-bundle/Highcharts/ChartOption.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-538">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/dashboard.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Layout.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/Layout/Layout.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,38 +135,36 @@
       <file leaf-file-name="AbonnementRepository.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GymBundle/Repository/AbonnementRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="41" />
+            <state relative-caret-position="451">
+              <caret line="94" column="16" lean-forward="false" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
               <folding>
-                <marker date="1528584777101" expanded="true" signature="396:568" ph="SELECT a FRO... GymBundle" />
-                <marker date="1528584777101" expanded="true" signature="817:941" ph="SELECT a FRO... GymBundle" />
+                <marker date="1528952704320" expanded="true" signature="429:601" ph="SELECT a FRO... GymBundle" />
+                <marker date="1528952704320" expanded="true" signature="850:974" ph="SELECT a FRO... GymBundle" />
+                <marker date="1528952704320" expanded="true" signature="1176:1183" ph="SELECT name,... vnn_sport" />
+                <marker date="1528952704320" expanded="true" signature="1176:1259" ph="SELECT * FRO... abonnement" />
+                <marker date="1528952704320" expanded="true" signature="1176:1273" ph="SELECT COUNT... abonnement" />
+                <marker date="1528952704320" expanded="true" signature="1176:1274" ph="SELECT COUNT... abonnement" />
+                <marker date="1528952704320" expanded="true" signature="1176:1275" ph="SELECT COUNT... abonnement" />
+                <marker date="1528952704320" expanded="true" signature="1176:1277" ph="SELECT COUNT... abonnement" />
+                <marker date="1528952704320" expanded="true" signature="1176:1285" ph="SELECT COUNT... abonnement" />
+                <marker date="1528952704320" expanded="true" signature="1176:1286" ph="SELECT COUNT... abonnement" />
+                <marker date="1528952704320" expanded="true" signature="1599:1665" ph="SELECT COUNT... abonnement" />
+                <marker date="1528952704320" expanded="true" signature="1599:1667" ph="SELECT COUNT... abonnement" />
+                <marker date="1528952704320" expanded="true" signature="1599:1742" ph="SELECT COUNT... abonnement" />
+                <marker date="1528952704320" expanded="true" signature="2066:2293" ph="SELECT COUNT... abonnement" />
+                <marker date="1528952704320" expanded="true" signature="2628:2806" ph="SELECT COUNT... abonnement" />
+                <marker date="1528952704320" expanded="true" signature="3019:3190" ph="SELECT COUNT... abonnement" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_abonnements.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/list_abonnements.html.twig">
+      <file leaf-file-name="Abonnement.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GymBundle/Entity/Abonnement.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="26" column="65" lean-forward="false" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+            <state relative-caret-position="697">
+              <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="19" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clientHistory.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/clientHistory.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="56" column="165" lean-forward="false" selection-start-line="56" selection-start-column="165" selection-end-line="56" selection-end-column="165" />
-              <folding>
-                <element signature="e#2445#2465#0#HTML" expanded="true" />
-                <element signature="e#2758#2778#0#HTML" expanded="true" />
-                <element signature="e#3090#3110#0#HTML" expanded="true" />
-                <element signature="e#3410#3430#0#HTML" expanded="true" />
-                <element signature="e#4093#4159#0#HTML" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -138,6 +193,11 @@
       <command text="s doctrine:generate:entities GymBundle:Client" />
       <command text="s doctrine:schema:update -f " />
       <command text="s cache:clear" />
+      <command text="composer require beberlei/DoctrineExtensions" />
+      <command text="c require beberlei/DoctrineExtensions" />
+      <command text="s cache:clear" />
+      <command text="c require &quot;vresh/twilio-bundle&quot;" />
+      <command text="c require ob/highcharts-bundle" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -155,25 +215,27 @@
     </option>
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/GymBundle/Resources/views/Layout/Layout.html.twig.html" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/GymBundle/Entity/Abonnement.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/GymBundle/Entity/Client.php" />
         <option value="$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/create.html.twig" />
         <option value="$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/list.html.twig" />
-        <option value="$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/clientHistory.html.twig" />
         <option value="$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/list_abonnements.html.twig" />
-        <option value="$PROJECT_DIR$/src/GymBundle/Repository/AbonnementRepository.php" />
-        <option value="$PROJECT_DIR$/src/GymBundle/Resources/config/routing.yml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3be91304-8d3a-4793-bc66-8968120ae46e/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3be91304-8d3a-4793-bc66-8968120ae46e/console_1.sql" />
         <option value="$PROJECT_DIR$/src/GymBundle/Resources/views/Layout/Layout.html.twig" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/clientHistory.html.twig" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/src/GymBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/GymBundle/Resources/views/dashboard.html.twig" />
+        <option value="$PROJECT_DIR$/src/GymBundle/Repository/AbonnementRepository.php" />
         <option value="$PROJECT_DIR$/src/GymBundle/Controller/DefaultController.php" />
       </list>
     </option>
@@ -228,6 +290,11 @@
       <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/beberlei/DoctrineExtensions" />
+      <path value="$PROJECT_DIR$/vendor/twilio/sdk" />
+      <path value="$PROJECT_DIR$/vendor/vresh/twilio-bundle" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-json" />
+      <path value="$PROJECT_DIR$/vendor/ob/highcharts-bundle" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -254,14 +321,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="leptisgym" type="b2602c69:ProjectViewProjectNode" />
               <item name="leptisgym" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="leptisgym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leptisgym" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="leptisgym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leptisgym" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="leptisgym" type="b2602c69:ProjectViewProjectNode" />
@@ -348,28 +426,28 @@
             <path>
               <item name="leptisgym" type="b2602c69:ProjectViewProjectNode" />
               <item name="leptisgym" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="leptisgym" type="b2602c69:ProjectViewProjectNode" />
               <item name="leptisgym" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ob" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="leptisgym" type="b2602c69:ProjectViewProjectNode" />
               <item name="leptisgym" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bower_components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ob" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="highcharts-bundle" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="leptisgym" type="b2602c69:ProjectViewProjectNode" />
               <item name="leptisgym" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bower_components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="datatables" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ob" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="highcharts-bundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Highcharts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -383,6 +461,7 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -420,6 +499,11 @@
       <workItem from="1528474385132" duration="3193000" />
       <workItem from="1528477932415" duration="7075000" />
       <workItem from="1528547046276" duration="16878000" />
+      <workItem from="1528597395560" duration="3239000" />
+      <workItem from="1528677791026" duration="1187000" />
+      <workItem from="1528824573511" duration="3451000" />
+      <workItem from="1528942400875" duration="9102000" />
+      <workItem from="1528952096480" duration="3457000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1528475310716</created>
@@ -446,17 +530,25 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32739000" />
+    <option name="totallyTimeSpent" value="53175000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1647145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.49707174" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -467,7 +559,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.49707174" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="SQL Generator" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -517,13 +612,246 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/GymBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="61" lean-forward="false" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+          <folding>
+            <element signature="e#40#85#0#PHP" expanded="true" />
+            <element signature="e#493#515#1#PHP" expanded="true" />
+            <element signature="e#605#627#1#PHP" expanded="true" />
+            <element signature="e#691#721#1#PHP" expanded="true" />
+            <element signature="e#865#883#1#PHP" expanded="true" />
+            <element signature="e#926#958#0#PHP" expanded="true" />
+            <element signature="e#1198#1216#1#PHP" expanded="true" />
+            <element signature="e#2344#2378#0#PHP" expanded="true" />
+            <element signature="e#2563#2581#1#PHP" expanded="true" />
+            <element signature="e#2642#2683#0#PHP" expanded="true" />
+            <element signature="e#2900#2922#1#PHP" expanded="true" />
+            <element signature="e#2978#3022#0#PHP" expanded="true" />
+            <element signature="e#3605#3627#1#PHP" expanded="true" />
+            <element signature="e#3684#3728#0#PHP" expanded="true" />
+            <element signature="e#3909#3931#1#PHP" expanded="true" />
+            <element signature="e#4699#4998#0#PHP" expanded="false" />
+            <element signature="e#5498#5711#0#PHP" expanded="false" />
+            <element signature="e#5728#6066#0#PHP" expanded="false" />
+            <element signature="e#7663#7889#0#PHP" expanded="false" />
+            <element signature="e#7907#8241#0#PHP" expanded="false" />
+            <element signature="e#7926#8070#1#PHP" expanded="false" />
+            <element signature="e#9492#9518#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GymBundle/Repository/AbonnementRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+          <folding>
+            <marker date="1528952704320" expanded="true" signature="429:601" ph="SELECT a FRO... GymBundle" />
+            <marker date="1528952704320" expanded="true" signature="850:974" ph="SELECT a FRO... GymBundle" />
+            <marker date="1528952704320" expanded="true" signature="1176:1183" ph="SELECT name,... vnn_sport" />
+            <marker date="1528952704320" expanded="true" signature="1176:1259" ph="SELECT * FRO... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1273" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1274" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1275" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1277" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1285" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1286" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1599:1665" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1599:1667" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1599:1742" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="2066:2293" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="2628:2806" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="3019:3190" ph="SELECT COUNT... abonnement" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3be91304-8d3a-4793-bc66-8968120ae46e/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/Layout/Layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GymBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="61" lean-forward="false" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
           <folding>
-            <element signature="e#5066#5072#0#HTML" expanded="true" />
+            <element signature="e#40#85#0#PHP" expanded="true" />
+            <element signature="e#493#515#1#PHP" expanded="true" />
+            <element signature="e#605#627#1#PHP" expanded="true" />
+            <element signature="e#691#721#1#PHP" expanded="true" />
+            <element signature="e#865#883#1#PHP" expanded="true" />
+            <element signature="e#926#958#0#PHP" expanded="true" />
+            <element signature="e#1198#1216#1#PHP" expanded="true" />
+            <element signature="e#2344#2378#0#PHP" expanded="true" />
+            <element signature="e#2563#2581#1#PHP" expanded="true" />
+            <element signature="e#2642#2683#0#PHP" expanded="true" />
+            <element signature="e#2900#2922#1#PHP" expanded="true" />
+            <element signature="e#2978#3022#0#PHP" expanded="true" />
+            <element signature="e#3605#3627#1#PHP" expanded="true" />
+            <element signature="e#3684#3728#0#PHP" expanded="true" />
+            <element signature="e#3909#3931#1#PHP" expanded="true" />
+            <element signature="e#4699#4998#0#PHP" expanded="false" />
+            <element signature="e#5498#5711#0#PHP" expanded="false" />
+            <element signature="e#5728#6066#0#PHP" expanded="false" />
+            <element signature="e#7663#7889#0#PHP" expanded="false" />
+            <element signature="e#7907#8241#0#PHP" expanded="false" />
+            <element signature="e#7926#8070#1#PHP" expanded="false" />
+            <element signature="e#9492#9518#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GymBundle/Repository/AbonnementRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+          <folding>
+            <marker date="1528952704320" expanded="true" signature="429:601" ph="SELECT a FRO... GymBundle" />
+            <marker date="1528952704320" expanded="true" signature="850:974" ph="SELECT a FRO... GymBundle" />
+            <marker date="1528952704320" expanded="true" signature="1176:1183" ph="SELECT name,... vnn_sport" />
+            <marker date="1528952704320" expanded="true" signature="1176:1259" ph="SELECT * FRO... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1273" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1274" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1275" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1277" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1285" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1286" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1599:1665" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1599:1667" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1599:1742" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="2066:2293" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="2628:2806" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="3019:3190" ph="SELECT COUNT... abonnement" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3be91304-8d3a-4793-bc66-8968120ae46e/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/Layout/Layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="129" lean-forward="false" selection-start-line="63" selection-start-column="129" selection-end-line="63" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="186" lean-forward="false" selection-start-line="26" selection-start-column="186" selection-end-line="26" selection-end-column="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/list_abonnements.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="65" lean-forward="false" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GymBundle/Repository/AbonnementRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <marker date="1528952704320" expanded="true" signature="429:601" ph="SELECT a FRO... GymBundle" />
+            <marker date="1528952704320" expanded="true" signature="850:974" ph="SELECT a FRO... GymBundle" />
+            <marker date="1528952704320" expanded="true" signature="1176:1183" ph="SELECT name,... vnn_sport" />
+            <marker date="1528952704320" expanded="true" signature="1176:1259" ph="SELECT * FRO... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1273" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1274" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1275" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1277" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1285" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1286" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1599:1665" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1599:1667" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1599:1742" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="2066:2293" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="2628:2806" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="3019:3190" ph="SELECT COUNT... abonnement" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/clientHistory.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="165" lean-forward="false" selection-start-line="56" selection-start-column="165" selection-end-line="56" selection-end-column="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GymBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#40#85#0#PHP" expanded="true" />
+            <element signature="e#493#515#1#PHP" expanded="true" />
+            <element signature="e#605#627#1#PHP" expanded="true" />
+            <element signature="e#691#721#1#PHP" expanded="true" />
+            <element signature="e#865#883#1#PHP" expanded="true" />
+            <element signature="e#926#958#0#PHP" expanded="true" />
+            <element signature="e#1198#1216#1#PHP" expanded="true" />
+            <element signature="e#2344#2378#0#PHP" expanded="true" />
+            <element signature="e#2563#2581#1#PHP" expanded="true" />
+            <element signature="e#2642#2683#0#PHP" expanded="true" />
+            <element signature="e#2900#2922#1#PHP" expanded="true" />
+            <element signature="e#2978#3022#0#PHP" expanded="true" />
+            <element signature="e#3605#3627#1#PHP" expanded="true" />
+            <element signature="e#3684#3728#0#PHP" expanded="true" />
+            <element signature="e#3909#3931#1#PHP" expanded="true" />
+            <element signature="e#4699#4998#0#PHP" expanded="false" />
+            <element signature="e#5498#5711#0#PHP" expanded="false" />
+            <element signature="e#5728#6066#0#PHP" expanded="false" />
+            <element signature="e#7663#7889#0#PHP" expanded="false" />
+            <element signature="e#7907#8241#0#PHP" expanded="false" />
+            <element signature="e#7926#8070#1#PHP" expanded="false" />
+            <element signature="e#9492#9518#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/Layout/Layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -531,9 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -541,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="97" lean-forward="false" selection-start-line="38" selection-start-column="97" selection-end-line="38" selection-end-column="97" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -558,16 +881,28 @@
         <state relative-caret-position="340">
           <caret line="20" column="163" lean-forward="false" selection-start-line="20" selection-start-column="163" selection-end-line="20" selection-end-column="163" />
           <folding>
-            <element signature="e#40#72#0#PHP" expanded="true" />
-            <element signature="e#531#549#1#PHP" expanded="true" />
-            <element signature="e#592#624#0#PHP" expanded="true" />
-            <element signature="e#864#882#1#PHP" expanded="true" />
-            <element signature="e#2229#2247#1#PHP" expanded="true" />
-            <element signature="e#2308#2349#0#PHP" expanded="true" />
-            <element signature="e#2566#2588#1#PHP" expanded="true" />
-            <element signature="e#2644#2688#0#PHP" expanded="true" />
-            <element signature="e#2877#2899#1#PHP" expanded="true" />
-            <element signature="e#2956#3000#0#PHP" expanded="true" />
+            <element signature="e#40#85#0#PHP" expanded="true" />
+            <element signature="e#493#515#1#PHP" expanded="true" />
+            <element signature="e#605#627#1#PHP" expanded="true" />
+            <element signature="e#691#721#1#PHP" expanded="true" />
+            <element signature="e#865#883#1#PHP" expanded="true" />
+            <element signature="e#926#958#0#PHP" expanded="true" />
+            <element signature="e#1198#1216#1#PHP" expanded="true" />
+            <element signature="e#2344#2378#0#PHP" expanded="true" />
+            <element signature="e#2563#2581#1#PHP" expanded="true" />
+            <element signature="e#2642#2683#0#PHP" expanded="true" />
+            <element signature="e#2900#2922#1#PHP" expanded="true" />
+            <element signature="e#2978#3022#0#PHP" expanded="true" />
+            <element signature="e#3605#3627#1#PHP" expanded="true" />
+            <element signature="e#3684#3728#0#PHP" expanded="true" />
+            <element signature="e#3909#3931#1#PHP" expanded="true" />
+            <element signature="e#4699#4998#0#PHP" expanded="false" />
+            <element signature="e#5498#5711#0#PHP" expanded="false" />
+            <element signature="e#5728#6066#0#PHP" expanded="false" />
+            <element signature="e#7663#7889#0#PHP" expanded="false" />
+            <element signature="e#7907#8241#0#PHP" expanded="false" />
+            <element signature="e#7926#8070#1#PHP" expanded="false" />
+            <element signature="e#9492#9518#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -576,9 +911,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="58" lean-forward="false" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
-          <folding>
-            <element signature="e#5066#5072#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -594,7 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -602,7 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -619,16 +950,28 @@
         <state relative-caret-position="170">
           <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
           <folding>
-            <element signature="e#40#72#0#PHP" expanded="true" />
-            <element signature="e#531#549#1#PHP" expanded="true" />
-            <element signature="e#592#624#0#PHP" expanded="true" />
-            <element signature="e#864#882#1#PHP" expanded="true" />
-            <element signature="e#2229#2247#1#PHP" expanded="true" />
-            <element signature="e#2308#2349#0#PHP" expanded="true" />
-            <element signature="e#2566#2588#1#PHP" expanded="true" />
-            <element signature="e#2644#2688#0#PHP" expanded="true" />
-            <element signature="e#2877#2899#1#PHP" expanded="true" />
-            <element signature="e#2956#3000#0#PHP" expanded="true" />
+            <element signature="e#40#85#0#PHP" expanded="true" />
+            <element signature="e#493#515#1#PHP" expanded="true" />
+            <element signature="e#605#627#1#PHP" expanded="true" />
+            <element signature="e#691#721#1#PHP" expanded="true" />
+            <element signature="e#865#883#1#PHP" expanded="true" />
+            <element signature="e#926#958#0#PHP" expanded="true" />
+            <element signature="e#1198#1216#1#PHP" expanded="true" />
+            <element signature="e#2344#2378#0#PHP" expanded="true" />
+            <element signature="e#2563#2581#1#PHP" expanded="true" />
+            <element signature="e#2642#2683#0#PHP" expanded="true" />
+            <element signature="e#2900#2922#1#PHP" expanded="true" />
+            <element signature="e#2978#3022#0#PHP" expanded="true" />
+            <element signature="e#3605#3627#1#PHP" expanded="true" />
+            <element signature="e#3684#3728#0#PHP" expanded="true" />
+            <element signature="e#3909#3931#1#PHP" expanded="true" />
+            <element signature="e#4699#4998#0#PHP" expanded="false" />
+            <element signature="e#5498#5711#0#PHP" expanded="false" />
+            <element signature="e#5728#6066#0#PHP" expanded="false" />
+            <element signature="e#7663#7889#0#PHP" expanded="false" />
+            <element signature="e#7907#8241#0#PHP" expanded="false" />
+            <element signature="e#7926#8070#1#PHP" expanded="false" />
+            <element signature="e#9492#9518#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -637,9 +980,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#5066#5072#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -648,16 +989,28 @@
         <state relative-caret-position="170">
           <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
           <folding>
-            <element signature="e#40#72#0#PHP" expanded="true" />
-            <element signature="e#531#549#1#PHP" expanded="true" />
-            <element signature="e#592#624#0#PHP" expanded="true" />
-            <element signature="e#864#882#1#PHP" expanded="true" />
-            <element signature="e#2229#2247#1#PHP" expanded="true" />
-            <element signature="e#2308#2349#0#PHP" expanded="true" />
-            <element signature="e#2566#2588#1#PHP" expanded="true" />
-            <element signature="e#2644#2688#0#PHP" expanded="true" />
-            <element signature="e#2877#2899#1#PHP" expanded="true" />
-            <element signature="e#2956#3000#0#PHP" expanded="true" />
+            <element signature="e#40#85#0#PHP" expanded="true" />
+            <element signature="e#493#515#1#PHP" expanded="true" />
+            <element signature="e#605#627#1#PHP" expanded="true" />
+            <element signature="e#691#721#1#PHP" expanded="true" />
+            <element signature="e#865#883#1#PHP" expanded="true" />
+            <element signature="e#926#958#0#PHP" expanded="true" />
+            <element signature="e#1198#1216#1#PHP" expanded="true" />
+            <element signature="e#2344#2378#0#PHP" expanded="true" />
+            <element signature="e#2563#2581#1#PHP" expanded="true" />
+            <element signature="e#2642#2683#0#PHP" expanded="true" />
+            <element signature="e#2900#2922#1#PHP" expanded="true" />
+            <element signature="e#2978#3022#0#PHP" expanded="true" />
+            <element signature="e#3605#3627#1#PHP" expanded="true" />
+            <element signature="e#3684#3728#0#PHP" expanded="true" />
+            <element signature="e#3909#3931#1#PHP" expanded="true" />
+            <element signature="e#4699#4998#0#PHP" expanded="false" />
+            <element signature="e#5498#5711#0#PHP" expanded="false" />
+            <element signature="e#5728#6066#0#PHP" expanded="false" />
+            <element signature="e#7663#7889#0#PHP" expanded="false" />
+            <element signature="e#7907#8241#0#PHP" expanded="false" />
+            <element signature="e#7926#8070#1#PHP" expanded="false" />
+            <element signature="e#9492#9518#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -667,13 +1020,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -696,9 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="44" column="155" lean-forward="false" selection-start-line="44" selection-start-column="155" selection-end-line="44" selection-end-column="155" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,7 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,92 +1056,174 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1212">
           <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GymBundle/Entity/Abonnement.php">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3be91304-8d3a-4793-bc66-8968120ae46e/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
-          <caret line="82" column="31" lean-forward="false" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/f0114ae3/3be91304-8d3a-4793-bc66-8968120ae46e/db_gym.abonnement">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3be91304-8d3a-4793-bc66-8968120ae46e/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/clientHistory.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="56" column="165" lean-forward="false" selection-start-line="56" selection-start-column="165" selection-end-line="56" selection-end-column="165" />
-          <folding>
-            <element signature="e#2445#2465#0#HTML" expanded="true" />
-            <element signature="e#2758#2778#0#HTML" expanded="true" />
-            <element signature="e#3090#3110#0#HTML" expanded="true" />
-            <element signature="e#3410#3430#0#HTML" expanded="true" />
-            <element signature="e#4093#4159#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/list.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="26" column="186" lean-forward="false" selection-start-line="26" selection-start-column="186" selection-end-line="26" selection-end-column="186" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GymBundle/Repository/AbonnementRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <marker date="1528584777101" expanded="true" signature="396:568" ph="SELECT a FRO... GymBundle" />
-            <marker date="1528584777101" expanded="true" signature="817:941" ph="SELECT a FRO... GymBundle" />
-          </folding>
+        <state relative-caret-position="213">
+          <caret line="57" column="182" lean-forward="false" selection-start-line="57" selection-start-column="182" selection-end-line="57" selection-end-column="182" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/list_abonnements.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="26" column="65" lean-forward="false" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+        <state relative-caret-position="-212">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="72" column="48" lean-forward="false" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        <state relative-caret-position="391">
+          <caret line="23" column="52" lean-forward="false" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GymBundle/Entity/Abonnement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/Abonnement/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/Layout/Layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="63" column="129" lean-forward="false" selection-start-line="63" selection-start-column="129" selection-end-line="63" selection-end-column="129" />
+        <state relative-caret-position="17">
+          <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GymBundle/Resources/views/dashboard.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GymBundle/Repository/AbonnementRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="94" column="16" lean-forward="false" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
           <folding>
-            <element signature="e#5066#5072#0#HTML" expanded="true" />
+            <marker date="1528952704320" expanded="true" signature="429:601" ph="SELECT a FRO... GymBundle" />
+            <marker date="1528952704320" expanded="true" signature="850:974" ph="SELECT a FRO... GymBundle" />
+            <marker date="1528952704320" expanded="true" signature="1176:1183" ph="SELECT name,... vnn_sport" />
+            <marker date="1528952704320" expanded="true" signature="1176:1259" ph="SELECT * FRO... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1273" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1274" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1275" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1277" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1285" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1176:1286" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1599:1665" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1599:1667" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="1599:1742" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="2066:2293" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="2628:2806" ph="SELECT COUNT... abonnement" />
+            <marker date="1528952704320" expanded="true" signature="3019:3190" ph="SELECT COUNT... abonnement" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ob/highcharts-bundle/Highcharts/ChartOption.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-538">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GymBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="434">
+          <caret line="248" column="57" lean-forward="false" selection-start-line="248" selection-start-column="57" selection-end-line="248" selection-end-column="57" />
           <folding>
-            <element signature="e#40#72#0#PHP" expanded="true" />
-            <element signature="e#531#549#1#PHP" expanded="true" />
-            <element signature="e#592#624#0#PHP" expanded="true" />
-            <element signature="e#864#882#1#PHP" expanded="true" />
-            <element signature="e#2229#2247#1#PHP" expanded="true" />
-            <element signature="e#2308#2349#0#PHP" expanded="true" />
-            <element signature="e#2566#2588#1#PHP" expanded="true" />
-            <element signature="e#2644#2688#0#PHP" expanded="true" />
-            <element signature="e#2877#2899#1#PHP" expanded="true" />
-            <element signature="e#2956#3000#0#PHP" expanded="true" />
+            <element signature="e#40#85#0#PHP" expanded="true" />
+            <element signature="e#493#515#1#PHP" expanded="true" />
+            <element signature="e#605#627#1#PHP" expanded="true" />
+            <element signature="e#691#721#1#PHP" expanded="true" />
+            <element signature="e#865#883#1#PHP" expanded="true" />
+            <element signature="e#926#958#0#PHP" expanded="true" />
+            <element signature="e#1198#1216#1#PHP" expanded="true" />
+            <element signature="e#2344#2378#0#PHP" expanded="true" />
+            <element signature="e#2563#2581#1#PHP" expanded="true" />
+            <element signature="e#2642#2683#0#PHP" expanded="true" />
+            <element signature="e#2900#2922#1#PHP" expanded="true" />
+            <element signature="e#2978#3022#0#PHP" expanded="true" />
+            <element signature="e#3605#3627#1#PHP" expanded="true" />
+            <element signature="e#3684#3728#0#PHP" expanded="true" />
+            <element signature="e#3909#3931#1#PHP" expanded="true" />
+            <element signature="e#4699#4998#0#PHP" expanded="false" />
+            <element signature="e#5498#5711#0#PHP" expanded="false" />
+            <element signature="e#5728#6066#0#PHP" expanded="false" />
+            <element signature="e#7663#7889#0#PHP" expanded="false" />
+            <element signature="e#7907#8241#0#PHP" expanded="false" />
+            <element signature="e#7926#8070#1#PHP" expanded="false" />
+            <element signature="e#9492#9518#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
