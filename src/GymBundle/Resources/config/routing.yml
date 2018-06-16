@@ -1,6 +1,6 @@
 gym_homepage:
     path:     /
-    defaults: { _controller: GymBundle:Default:index }
+    defaults: { _controller: GymBundle:Default:chart }
 gym_abonnement_create:
     path:     /abonnement/create
     defaults: { _controller: GymBundle:Default:createabonnement }

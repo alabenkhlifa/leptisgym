@@ -142,8 +142,14 @@ class DefaultController extends Controller
         $dataM=array();
         $dataB=array();
         for($i=1;$i<=12;$i++){
-            array_push($dataM,(int)$abonnementRepo->getAbonnementsByMonth($i,'Musculation'));
-            array_push($dataB,(int)$abonnementRepo->getAbonnementsByMonth($i,'Boxe'));
+            if((int)$abonnementRepo->getAbonnementsByMonth($i,'Musculation')==0)
+                array_push($dataM,null);
+            else
+                array_push($dataM,(int)$abonnementRepo->getAbonnementsByMonth($i,'Musculation'));
+            if((int)$abonnementRepo->getAbonnementsByMonth($i,'Boxe')==0)
+                array_push($dataB,null);
+            else
+                array_push($dataB,(int)$abonnementRepo->getAbonnementsByMonth($i,'Boxe'));
         }
         $data = array(
             array(
@@ -206,8 +212,14 @@ class DefaultController extends Controller
         $dataH=array();
         $dataF=array();
         for($i=1;$i<=12;$i++){
-            array_push($dataH,(int)$abonnementRepo->getAbonnementsByMonthAndGender($i,'Homme'));
-            array_push($dataF,(int)$abonnementRepo->getAbonnementsByMonthAndGender($i,'Femme'));
+            if((int)$abonnementRepo->getAbonnementsByMonthAndGender($i,'Homme')==0)
+                array_push($dataH,null);
+            else
+                array_push($dataH,(int)$abonnementRepo->getAbonnementsByMonthAndGender($i,'Homme'));
+            if((int)$abonnementRepo->getAbonnementsByMonthAndGender($i,'Femme')==0)
+                array_push($dataF,null);
+            else
+                array_push($dataF,(int)$abonnementRepo->getAbonnementsByMonthAndGender($i,'Femme'));
         }
         $data2 = array(
             array(
